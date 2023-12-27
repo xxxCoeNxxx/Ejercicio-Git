@@ -29,3 +29,10 @@ README.md, he hecho un nuevo commit y he subido los cambios.
     git add .
     git commit -m "Añadidos cambios y nueva rama"
     git push origin development
+
+-He vuelto a la rama main, he hecho un merge con development, como no ha habido conflictos,
+he actualizado mi README y he hecho un commit y un push de los cambios.
+    git checkout main
+    git merge development
+    git commit -am "Merge de main y development, README actualizado"
+    git push origin main
