@@ -21,3 +21,11 @@ para establecer la rama main como la predeterminada para los push.
     git add .
     git commit -m "Añadidos Archivo.md y README.md"
     git push -u origin main
+
+-He añadido una nueva rama, cambiado a ella, he modificado mi Archivo.md por consola y el 
+README.md, he hecho un nuevo commit y he subido los cambios.
+    git checkout -b development
+    echo "nuevo texto por consola" >> .\Archivo.md
+    git add .
+    git commit -m "Añadidos cambios y nueva rama"
+    git push origin development
